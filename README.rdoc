@@ -1,0 +1,12 @@
+= PgPolymorphicConstraints
+
+There's nothing here yet, but this plugin will eventually provide a way to add
+trigger-based polymorphic foreign key constraints to PostgreSQL tables that
+behave roughly the same as PostgreSQL's native foreign key constraints.
+
+= TODO
+
+* Generate migration to add plpgsql and trigger function
+* Migration helper to create/drop constraint
+* Migration helper to create/drop table_name column
+* ActiveRecord class method to create association table_name column callback
